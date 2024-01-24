@@ -1,98 +1,53 @@
 body {
   font-family: Arial, sans-serif;
-  margin: 0;
-  padding: 20px;
-  background-color: #f0e6b9;
-  }
-  
-  .title {
+}
+
+.title {
   text-align: center;
-  font-size: 3pc;
-  }
-  
-  h2 {
-  margin: 0;
-  padding: 10px 0;
-  text-align: center;
-  }
-  
-  .card {
-  background-color: #fcfaf2;
-  padding: 10px;
-  margin-bottom: 10px;
-  border-radius: 15px;
-  }
-  
-  ul {
-  list-style-type: none;
-  padding: 0;
-  }
-  
-  .column {
-  flex: 1;
-  margin-right: 20px;
-  }
-  
-  form {
+}
+
+.cardForm {
   margin-bottom: 20px;
-  }
-  
-  label {
-  display: block;
-  font-weight: bold;
-  margin-bottom: 5px;
-  }
-  
-  input[type="text"],
-  textarea {
+}
+
+.titlenote {
   width: 100%;
   padding: 5px;
-  border: 1px solid #ccc;
-  border-radius: 4px;
-  }
-  
-  input[type="submit"] {
-  padding: 5px 10px;
-  color: white;
-  border: none;
-  border-radius: 4px;
-  cursor: pointer;
-  }
-  
-  .cardForm {
-  padding: 20px;
-  border: 1px solid #ccc;
-  background-color: #f2f2f2;
-  border-radius: 5px;
-  text-align: center;
-  margin: 50px 600px;
-  border-radius: 20px;
-  }
-  
-  .cardForm label {
-  display: inline-block;
-  font-weight: bold;
-  margin-bottom: 5px;
-  }
-  
-  .cardForm input[type="text"] {
-  width: 100%;
-  padding: 8px;
-  border-radius: 5px;
-  border: 1px solid #ccc;
-  box-sizing: border-box;
   margin-bottom: 10px;
-  }
-  
-  .cardForm input[type="submit"] {
-  background-color: #ebe7ca;
-  color: white;
+}
+
+.btn {
   padding: 10px 20px;
+  background-color: dodgerblue;
+  color: white;
   border: none;
-  border-radius: 5px;
   cursor: pointer;
-  }
-  
-  .cardForm input[type="submit"]:hover {
-  background-color: #ebe7ca;
-  }
+}
+
+.create-btn {
+  background-color: green;
+  margin-left: 10px;
+}
+
+.columns {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.column {
+  flex: 1;
+  margin: 10px;
+  padding: 10px;
+  background-color: lightgray;
+}
+
+.card {
+  margin-bottom: 10px;
+  padding: 10px;
+  background-color: white;
+  border: 1px solid gray;
+}
+
+button {
+  margin-top: 10px;
+}
