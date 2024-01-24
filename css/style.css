@@ -3,11 +3,13 @@ body {
 }
 
 .title {
-  text-align: center;
+  margin: 20px 0 0 20px;
+  font-size: 40px;
 }
 
 .cardForm {
   margin-bottom: 20px;
+  text-align: end;
 }
 
 .titlenote {
