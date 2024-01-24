@@ -7,9 +7,13 @@ body {
   font-size: 40px;
 }
 
+.card h3{
+  text-align: center;
+}
+
 .cardForm {
   margin-bottom: 20px;
-  text-align: end;
+  text-align: center;
 }
 
 .titlenote {
@@ -52,6 +56,7 @@ body {
   padding: 10px;
   background-color: white;
   border: 1px solid gray;
+  border-radius: 10px;
 }
 
 button {
