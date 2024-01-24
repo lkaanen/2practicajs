@@ -126,7 +126,6 @@ const app = new Vue({
                 }
             })
         },
-        // Метод для проверки и перемещения карточек
         checkMoveCard() {
             this.MoveFirstColm();
             this.MoveSecondColm();
